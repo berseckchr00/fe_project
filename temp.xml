@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0">
+<Documento ID="S6T1000N28">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>1</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<TipoDespacho>1</TipoDespacho>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>76237770-5</RUTRecep>
+<CdgIntRecep>76237770</CdgIntRecep>
+<RznSocRecep>INGENIERIA COMPUTACION  Y SERVICIOS MULLER LTDA</RznSocRecep>
+<GiroRecep>SERVICIO TECNICO</GiroRecep>
+<Contacto>HANS MULLER</Contacto>
+<DirRecep>AV. SANTA TERESA 404</DirRecep>
+<CmnaRecep>LOS ANDES</CmnaRecep>
+<CiudadRecep>LOS ANDES</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntNeto>642739</MntNeto>
+<TasaIVA>19</TasaIVA>
+<IVA>122120</IVA>
+<MntTotal>764859</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII001</VlrCodigo>
+</CdgItem>
+<NmbItem>CajÃ³n AFECTO</NmbItem>
+<DscItem/>
+<QtyItem>151.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>2501.0</PrcItem>
+<MontoItem>377651</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII002</VlrCodigo>
+</CdgItem>
+<NmbItem>Relleno AFECTO</NmbItem>
+<DscItem/>
+<QtyItem>64.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>4142.0</PrcItem>
+<MontoItem>265088</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>350</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-1</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>1-9</RE>
+<TD>33</TD>
+<F>1</F>
+<FE>2012-03-27</FE>
+<RR>76237770-5</RR>
+<RSR>INGENIERIA COMPUTACION  Y SERVICIOS MULL</RSR>
+<MNT>764859</MNT>
+<IT1>CajÃ³n AFECTO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>77407770-7</RE>
+<RS>ALLWARE CONSULTORA E INFORMATICA LTDA</RS>
+<TD>33</TD>
+<RNG>
+<D>1</D>
+<H>20</H>
+</RNG>
+<FA>2014-10-27</FA>
+<RSAPK>
+<M>tM1/XtkGl+IsOdr7LVfaMj3pj9nivmxnXHJagWlk0UMZxOjNWj/15vHlDIWXliZWroLbMr7I6fabbz0o+lyaNw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">NvWUI8fY2ghwwyW5jOcBPi2ebaKFWyaQ9krKKXTh5YGMgK2peaFp9fNPaVAqsVldvl9l5LoMGwiLQjp5s9aEFw==</FRMA>
+</CAF>
+<TSTED>2018-12-31T11:36:33</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">lrAtnMZdWAFf3Um61G0JEHSAXbrfGoD+gsp0rat/EaTB9QOMQiaB8sOkI6siHLqameJzYqyY4lnQqcsmCZh2Qw==</FRMT>
+</TED>
+<TmstFirma>2018-12-31T11:36:33</TmstFirma></Documento>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#S6T1000N28">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>TD3gAh9xOXG3a9RkV3kxOyo0JUs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+vkDdgvG6X9HrL6f9RNYBpaIaQhE0So7hBWJCJ7h9pFnTCPrL2znmAmoVSqPRSaMCKHoJJx5Ti7cv
++6aO8YuVR6nQ6O51XgSFzi0x1DZqZ0Z39ywq+lHzNHHVVSH6qJiKQWAxZ+p6e1ynCPy44e+QTAL6
+30a8VXzIyGUiVZy9Ivk=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wWIzvL6mU3r6dOVXKpQB10BNj9Kt7CNj7xRnBo1q/lAfO6PxYVygJqdyQ7MwmHD9Cvylnpz3bZJo
+q3hzwBGE9W/F7B4mX8OtgXmiqZndk/24KbXO01ldqz0SqE0liKSVZqk7Ell4H4s22darKllrOB7w
++mYDB1CT5nBA9C6ucMM=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFqzCCBJOgAwIBAgIDAJesMA0GCSqGSIb3DQEBBQUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFsIC0gVjIxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0xMzAyMDQxNDExMjJaFw0xNjAyMDQx
+NDExMjJaMGYxCzAJBgNVBAYTAkNMMSEwHwYDVQQDExhORUxTT04gRkFCSUFOIFNPVE8gT1NTRVMx
+HzAdBgkqhkiG9w0BCQEWEG5zb3RvQGFsbHdhcmUuY2wxEzARBgNVBAUTCjExOTE5NzgyLTEwgZ8w
+DQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFiM7y+plN6+nTlVyqUAddATY/SrewjY+8UZwaNav5Q
+Hzuj8WFcoCanckOzMJhw/Qr8pZ6c922SaKt4c8ARhPVvxeweJl/DrYF5oqmZ3ZP9uCm1ztNZXas9
+EqhNJYiklWapOxJZeB+LNtnWqypZazge8PpmAwdQk+ZwQPQurnDDAgMBAAGjggKjMIICnzAfBgNV
+HSMEGDAWgBRA3+j2VhD5dBqehMwiCNA2rSkmUTAdBgNVHQ4EFgQUOPW53W3RbL7pIkL6dqvjEaa6
+16swCwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhC
+AQEEBAMCBaAwgfIGA1UdIASB6jCB5zCB5AYKKwYBBAG1a4dpAjCB1TAnBggrBgEFBQcCARYbaHR0
+cDovL3d3dy5hY2VwdGEuY29tL0NQU1YyMIGpBggrBgEFBQcCAjCBnDAWFg9BY2VwdGEuY29tIFMu
+QS4wAwIBAhqBgUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBlbiBmb3JtYSBwcmVzZW5jaWFs
+LCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmljYWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8s
+IHBhZ29zLCBjb21lcmNpbyB5IG90cm9zLjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5
+MDUwLTigJAYIKwYBBQUHCAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEu
+Y29tMFsGA1UdEQRUMFKgGAYIKwYBBAHBAQGgDBYKMTE5MTk3ODItMaAkBggrBgEFBQcIA6AYMBYM
+CjExOTE5NzgyLTEGCCsGAQQBwQECgRBuc290b0BhbGx3YXJlLmNsMDsGCCsGAQUFBwEBBC8wLTAr
+BggrBgEFBQcwAYYfaHR0cDovL29jc3AuYWNlcHRhLmNvbS9DbGFzZTNWMjAzBgNVHR8ELDAqMCig
+JqAkhiJodHRwOi8vY3JsLmFjZXB0YS5jb20vQ2xhc2UzVjIuY3JsMA0GCSqGSIb3DQEBBQUAA4IB
+AQAnIJQjXWuqhkansB9S0hn7PzFX9gcqIjuZHsoTeqFoCA/lsCDc9KGJQWjXpYIyXtqkMfgN7NMW
+EsKs4/tzq3x+u4mqttdodWeS+KFViigAQpC4ra1q0ihEDgXipQiekxE6/QzgaBWcMMFGr7W/7i4y
+Cf1qfg41jA2uRIWipaGIGJL/1Xn1RFyCSmVKiuIxfz+g1gJ701d8Lv7NaeMyhuNwZrd+46onlksy
+QajeFHF27mA2scZN4qRXwNIZSH11+cdxHOAgCInpxjZW+A8wdo7OK5BLg6Px8xz7SLTbAUpKU98g
+OlaTzy6PDSxkgGGPNKpohAHNpzbPMeQGom7yr6SO
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></DTE>

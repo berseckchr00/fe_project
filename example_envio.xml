@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+<SetDTE ID="SetDoc">
+<Caratula version="1.0">
+<RutEmisor>1-9</RutEmisor>
+<RutEnvia>2-7</RutEnvia>
+<RutReceptor>60803000-K</RutReceptor>
+<FchResol>2011-07-22</FchResol>
+<NroResol>0</NroResol>
+<TmstFirmaEnv>2012-03-27T21:14:55</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>56</TpoDTE>
+<NroDTE>1</NroDTE>
+</SubTotDTE>
+<SubTotDTE>
+<TpoDTE>61</TpoDTE>
+<NroDTE>3</NroDTE>
+</SubTotDTE>
+<SubTotDTE>
+<TpoDTE>33</TpoDTE>
+<NroDTE>4</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE version="1.0">
+<Documento ID="S6T1000N28">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>350</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<TipoDespacho>1</TipoDespacho>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>76237770-5</RUTRecep>
+<CdgIntRecep>76237770</CdgIntRecep>
+<RznSocRecep>INGENIERIA COMPUTACION  Y SERVICIOS MULLER LTDA</RznSocRecep>
+<GiroRecep>SERVICIO TECNICO</GiroRecep>
+<Contacto>HANS MULLER</Contacto>
+<DirRecep>AV. SANTA TERESA 404</DirRecep>
+<CmnaRecep>LOS ANDES</CmnaRecep>
+<CiudadRecep>LOS ANDES</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntNeto>642739</MntNeto>
+<TasaIVA>19</TasaIVA>
+<IVA>122120</IVA>
+<MntTotal>764859</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII001</VlrCodigo>
+</CdgItem>
+<NmbItem>Cajón AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>151.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>2501.0</PrcItem>
+<MontoItem>377651</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII002</VlrCodigo>
+</CdgItem>
+<NmbItem>Relleno AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>64.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>4142.0</PrcItem>
+<MontoItem>265088</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>350</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-1</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>1-9</RE>
+<TD>33</TD>
+<F>350</F>
+<FE>2012-03-27</FE>
+<RR>76237770-5</RR>
+<RSR>INGENIERIA COMPUTACION  Y SERVICIOS MULL</RSR>
+<MNT>764859</MNT>
+<IT1>Cajón AFECTO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>1-9</RE>
+<RS>EMISOR ELECTRONICO PRUEBAS</RS>
+<TD>33</TD>
+<RNG>
+<D>346</D>
+<H>445</H>
+</RNG>
+<FA>2012-03-27</FA>
+<RSAPK>
+<M>8Fb0XkYW2erSGDmqxwD4J/96WtWdUVY6qiIKte3D8MlP+fD7ee+3tYZvrV+Kp5lcmGmKke3sjftFRD8oZQ+bBw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">r0uzpQOYtNuGEEXL2AvKUjzoLKrJ0z7REBV22qgD9cIJcmB0oFkcnqwgLhH2czojj4tXnBQ0+Cx0BNP4lLgnEA==</FRMA>
+</CAF>
+<TSTED>2012-03-27T21:14:49</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">etac7Mb+iRVnU0CFngIqgMWCKHF8N45DbiVVJndBQeo11C7kdRTqEiPV6J0VNc27agQUr+oFcMh2xlatiMy32w==</FRMT>
+</TED>
+<TmstFirma>2012-03-27T21:14:49</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#S6T1000N28">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>jX6OFtVnZq3fJzsMvY+gARIqJdo=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>2C1AM18R7sgI9jitNP+h04vuI5AZfvuFNkBJxDeegVBvHVOi5aldBelFCAqm1/y9eKx4PG4zZbdX
+Iu0LRiqiMHHTrloQKAw8iUrcZx7ycQqIjpouXmQOOjb7mXQ2jcSD5XJv8TNHTiQOsfAqy7vY6KAs
+zBMJnvj0BjPhwNb8IVE=</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>2eMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65ls6
+/RqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+XBUoy2N4cDXyVIVgHIM=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIEhzCCA/CgAwIBAgIEAQCRDjANBgkqhkiG9w0BAQUFADCBtTELMAkGA1UEBhMCQ0wxHTAbBgNV
+NAgUFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHFAhTYW50aWFnbzEUMBIGA1UEChQLRS1N
+OVJUQ0hJTEUxIDAeBgNVBAsUF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRcwFQYDVQQDFA5FLUNO
+VlRDSElMRSBDQTEjMCEGCSqGSIb3DQEJARYUZW1haWxAZS1jZXJ0Y2hpbGUuY2wwHhcNMTEwNzEV
+ATkyMDEzWhcNMTQwNzE4MDAwMDAwWjCBrjELMAkGA1UEBhMCQ0wxFjAUBgNVBAgUDU1FVFJPUE9A
+LVRBTkExETAPBgNVBAcUCFNBTlRJQUdPMSIwIAYDVQQKFBlMQU5JWCBURUNITk9MT0dZIENISUxL
+IFNBMQowCAYDVQQLFAEqMR4wHAYDVQQDFBVBTERPIE1PWUFOTyBBUkFOQ0lCSUExJDAiBgkqhkiI
+Dw0BCQEWFUNPTlRBQklMSURBREBMQU5JWC5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYED
+OeMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65lsO
+CRqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+EBUoy2N4cDXyVIVgHIMCAwEAAaOCAacwggGjMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDcz
+RjEyNjctNzAJBgNVHRMEAjAAMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuZS1jZXJ0Y2hp
+TGUuY2wvZS1jZXJ0Y2hpbGVjYS5jcmwwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4
+FC01MB8GA1UdIwQYMBaAFOAo/dLgYE+zRusazPUIkQdyOh0IMIHfBgNVHSAEgdcwgdQwgdEGCCsG
+AQQBw1IFMIHEMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsLzIwMDAvQ1BT
+LzCBkAYIKwYBBQUHAgIwgYMagYBFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEg
+SHJlc2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0
+OmlidXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvczALBgNVHQ8EBAMCBPAwDQYJKoZIhvcN
+-QEFBQADgYEAT9jGRn6n6+PWyxoo/zD3WHxvLazmi95G3+ciS9mptKD/aSFv/eoqCFBjsYym9g47
+-63EgnX0fmsuoHwaw4mtQ+dVM5e0Is/hFIwZOvWic32lFEkukfjXcFn2mOx0jncaYLL7UmcQmsqb
+-zsgG/814HlNnXAIzSpClMSeTNh+V7c=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>
+<DTE version="1.0">
+<Documento ID="S6T1000N29">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>351</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<TipoDespacho>1</TipoDespacho>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>78091820-9</RUTRecep>
+<CdgIntRecep>78091820</CdgIntRecep>
+<RznSocRecep>IMPORTADORA LAMARTINE LTDA.</RznSocRecep>
+<GiroRecep>COMPRA VENTA DE REPUESTOS AUTOMOTRICES</GiroRecep>
+<Contacto>MAXIMILIANO LAMARTINE</Contacto>
+<DirRecep>AV. SANTA ROSA 933</DirRecep>
+<CmnaRecep>SANTIAGO</CmnaRecep>
+<CiudadRecep>SANTIAGO</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntNeto>3670430</MntNeto>
+<TasaIVA>19</TasaIVA>
+<IVA>697382</IVA>
+<MntTotal>4367812</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII003</VlrCodigo>
+</CdgItem>
+<NmbItem>Pañuelo AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>557.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>4354.0</PrcItem>
+<DescuentoPct>7.0</DescuentoPct>
+<DescuentoMonto>169762</DescuentoMonto>
+<MontoItem>2255416</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII006</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 2 AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>494.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>3410.0</PrcItem>
+<DescuentoPct>16.0</DescuentoPct>
+<DescuentoMonto>269526</DescuentoMonto>
+<MontoItem>1415014</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>351</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-2</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>1-9</RE>
+<TD>33</TD>
+<F>351</F>
+<FE>2012-03-27</FE>
+<RR>78091820-9</RR>
+<RSR>IMPORTADORA LAMARTINE LTDA.</RSR>
+<MNT>4367812</MNT>
+<IT1>Cajón AFECTO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>1-9</RE>
+<RS>EMISOR ELECTRONICO PRUEBAS</RS>
+<TD>33</TD>
+<RNG>
+<D>346</D>
+<H>445</H>
+</RNG>
+<FA>2012-03-27</FA>
+<RSAPK>
+<M>8Fb0XkYW2erSGDmqxwD4J/96WtWdUVY6qiIKte3D8MlP+fD7ee+3tYZvrV+Kp5lcmGmKke3sjftFRD8oZQ+bBw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">r0uzpQOYtNuGEEXL2AvKUjzoLKrJ0z7REBV22qgD9cIJcmB0oFkcnqwgLhH2czojj4tXnBQ0+Cx0BNP4lLgnEA==</FRMA>
+</CAF>
+<TSTED>2012-03-27T21:14:50</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">K/fh57vaapFffhnnE0a0X9a1FsBefCmgOrnxGNe7o97tT2FepLrYgE+Mt3B31QvIBTL17+x2KOfsKz+2PW/59w==</FRMT>
+</TED>
+<TmstFirma>2012-03-27T21:14:50</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#S6T1000N29">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>Yc4byOG/8RidOGMRflVcfCQef88=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>JivBllG5neSTIvcPLy9u+XfCvseuhI0qo/O7KpD2IqvydHjnWlx5rLLi5l5M0UzYyc0WShFrcRQP
+m924NH31BPV7swNkk6ZBcDxr14UM48X4j6Q9XuSRarCg/DS1NGhAfIFuQSFcdAtHFSc0jar4KQM3
+5K7N3GUG1UpMujxEuLA=</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>2eMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65ls6
+/RqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+XBUoy2N4cDXyVIVgHIM=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIEhzCCA/CgAwIBAgIEAQCRDjANBgkqhkiG9w0BAQUFADCBtTELMAkGA1UEBhMCQ0wxHTAbBgNV
+NAgUFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHFAhTYW50aWFnbzEUMBIGA1UEChQLRS1N
+OVJUQ0hJTEUxIDAeBgNVBAsUF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRcwFQYDVQQDFA5FLUNO
+VlRDSElMRSBDQTEjMCEGCSqGSIb3DQEJARYUZW1haWxAZS1jZXJ0Y2hpbGUuY2wwHhcNMTEwNzEV
+ATkyMDEzWhcNMTQwNzE4MDAwMDAwWjCBrjELMAkGA1UEBhMCQ0wxFjAUBgNVBAgUDU1FVFJPUE9A
+LVRBTkExETAPBgNVBAcUCFNBTlRJQUdPMSIwIAYDVQQKFBlMQU5JWCBURUNITk9MT0dZIENISUxL
+IFNBMQowCAYDVQQLFAEqMR4wHAYDVQQDFBVBTERPIE1PWUFOTyBBUkFOQ0lCSUExJDAiBgkqhkiI
+Dw0BCQEWFUNPTlRBQklMSURBREBMQU5JWC5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYED
+OeMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65lsO
+CRqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+EBUoy2N4cDXyVIVgHIMCAwEAAaOCAacwggGjMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDcz
+RjEyNjctNzAJBgNVHRMEAjAAMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuZS1jZXJ0Y2hp
+TGUuY2wvZS1jZXJ0Y2hpbGVjYS5jcmwwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4
+FC01MB8GA1UdIwQYMBaAFOAo/dLgYE+zRusazPUIkQdyOh0IMIHfBgNVHSAEgdcwgdQwgdEGCCsG
+AQQBw1IFMIHEMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsLzIwMDAvQ1BT
+LzCBkAYIKwYBBQUHAgIwgYMagYBFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEg
+SHJlc2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0
+OmlidXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvczALBgNVHQ8EBAMCBPAwDQYJKoZIhvcN
+-QEFBQADgYEAT9jGRn6n6+PWyxoo/zD3WHxvLazmi95G3+ciS9mptKD/aSFv/eoqCFBjsYym9g47
+-63EgnX0fmsuoHwaw4mtQ+dVM5e0Is/hFIwZOvWic32lFEkukfjXcFn2mOx0jncaYLL7UmcQmsqb
+-zsgG/814HlNnXAIzSpClMSeTNh+V7c=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>
+<DTE version="1.0">
+<Documento ID="S6T1000N30">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>352</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<TipoDespacho>1</TipoDespacho>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>96684580-5</RUTRecep>
+<CdgIntRecep>96684580</CdgIntRecep>
+<RznSocRecep>FERROCARRIL DEL PACIFICO S.A.</RznSocRecep>
+<GiroRecep>TRANSPORTE</GiroRecep>
+<Contacto>PATRICIO NAVARRO</Contacto>
+<DirRecep>MALAGA 120, PISO 5</DirRecep>
+<CmnaRecep>LAS CONDES</CmnaRecep>
+<CiudadRecep>SANTIAGO</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntNeto>932162</MntNeto>
+<MntExe>35066</MntExe>
+<TasaIVA>19</TasaIVA>
+<IVA>177111</IVA>
+<MntTotal>1144339</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII004</VlrCodigo>
+</CdgItem>
+<NmbItem>Pintura B&amp;W AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>42.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>5094.0</PrcItem>
+<MontoItem>213948</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII006</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 2 AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>203.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>3538.0</PrcItem>
+<MontoItem>718214</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>3</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII007</VlrCodigo>
+</CdgItem>
+<IndExe>1</IndExe>
+<NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>1.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>35066.0</PrcItem>
+<MontoItem>35066</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>352</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-3</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>1-9</RE>
+<TD>33</TD>
+<F>352</F>
+<FE>2012-03-27</FE>
+<RR>96684580-5</RR>
+<RSR>FERROCARRIL DEL PACIFICO S.A.</RSR>
+<MNT>1144339</MNT>
+<IT1>Cajón AFECTO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>1-9</RE>
+<RS>EMISOR ELECTRONICO PRUEBAS</RS>
+<TD>33</TD>
+<RNG>
+<D>346</D>
+<H>445</H>
+</RNG>
+<FA>2012-03-27</FA>
+<RSAPK>
+<M>8Fb0XkYW2erSGDmqxwD4J/96WtWdUVY6qiIKte3D8MlP+fD7ee+3tYZvrV+Kp5lcmGmKke3sjftFRD8oZQ+bBw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">r0uzpQOYtNuGEEXL2AvKUjzoLKrJ0z7REBV22qgD9cIJcmB0oFkcnqwgLhH2czojj4tXnBQ0+Cx0BNP4lLgnEA==</FRMA>
+</CAF>
+<TSTED>2012-03-27T21:14:50</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">Hyb0uY3gaVPY3DA5LHc3xCqIv/kn2Y1ypcrvCYeGlyp48BF1w64QluRT0dp3B+Bf42JR+J1ivgaJKKU+71V1nA==</FRMT>
+</TED>
+<TmstFirma>2012-03-27T21:14:50</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#S6T1000N30">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>mK8EPPj+JP8RTwkGoM499rZQ6zY=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>wc7uw+QZaCjCKmhf4d3OwOkwx54qLH1SuDwvhC7abrx5s6eDO1MXfhTKyWQYGLKc0RcPUrF541KR
+GinH2PxlKPPx7PBwmUoCrayt8hbIGR4XOuG8hFJSH/zD7grcI+xNMqMxY+7NmLXjHYMKFZsQdvvH
+uUZUKVNZ2MZEUHfDEzo=</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>2eMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65ls6
+/RqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+XBUoy2N4cDXyVIVgHIM=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIEhzCCA/CgAwIBAgIEAQCRDjANBgkqhkiG9w0BAQUFADCBtTELMAkGA1UEBhMCQ0wxHTAbBgNV
+NAgUFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHFAhTYW50aWFnbzEUMBIGA1UEChQLRS1N
+OVJUQ0hJTEUxIDAeBgNVBAsUF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRcwFQYDVQQDFA5FLUNO
+VlRDSElMRSBDQTEjMCEGCSqGSIb3DQEJARYUZW1haWxAZS1jZXJ0Y2hpbGUuY2wwHhcNMTEwNzEV
+ATkyMDEzWhcNMTQwNzE4MDAwMDAwWjCBrjELMAkGA1UEBhMCQ0wxFjAUBgNVBAgUDU1FVFJPUE9A
+LVRBTkExETAPBgNVBAcUCFNBTlRJQUdPMSIwIAYDVQQKFBlMQU5JWCBURUNITk9MT0dZIENISUxL
+IFNBMQowCAYDVQQLFAEqMR4wHAYDVQQDFBVBTERPIE1PWUFOTyBBUkFOQ0lCSUExJDAiBgkqhkiI
+Dw0BCQEWFUNPTlRBQklMSURBREBMQU5JWC5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYED
+OeMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65lsO
+CRqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+EBUoy2N4cDXyVIVgHIMCAwEAAaOCAacwggGjMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDcz
+RjEyNjctNzAJBgNVHRMEAjAAMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuZS1jZXJ0Y2hp
+TGUuY2wvZS1jZXJ0Y2hpbGVjYS5jcmwwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4
+FC01MB8GA1UdIwQYMBaAFOAo/dLgYE+zRusazPUIkQdyOh0IMIHfBgNVHSAEgdcwgdQwgdEGCCsG
+AQQBw1IFMIHEMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsLzIwMDAvQ1BT
+LzCBkAYIKwYBBQUHAgIwgYMagYBFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEg
+SHJlc2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0
+OmlidXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvczALBgNVHQ8EBAMCBPAwDQYJKoZIhvcN
+-QEFBQADgYEAT9jGRn6n6+PWyxoo/zD3WHxvLazmi95G3+ciS9mptKD/aSFv/eoqCFBjsYym9g47
+-63EgnX0fmsuoHwaw4mtQ+dVM5e0Is/hFIwZOvWic32lFEkukfjXcFn2mOx0jncaYLL7UmcQmsqb
+-zsgG/814HlNnXAIzSpClMSeTNh+V7c=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>
+<DTE version="1.0">
+<Documento ID="S6T1000N31">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>353</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<TipoDespacho>1</TipoDespacho>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>52002400-K</RUTRecep>
+<CdgIntRecep>52002400</CdgIntRecep>
+<RznSocRecep>MTO SERVICES LTDA</RznSocRecep>
+<GiroRecep>LIBRERIA</GiroRecep>
+<Contacto></Contacto>
+<DirRecep>IRARRAZAVAL 3835</DirRecep>
+<CmnaRecep>ÑUÑOA</CmnaRecep>
+<CiudadRecep>SANTIAGO</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntNeto>1534200</MntNeto>
+<MntExe>13616</MntExe>
+<TasaIVA>19</TasaIVA>
+<IVA>291498</IVA>
+<MntTotal>1839314</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII005</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 1 AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>286.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>4283.0</PrcItem>
+<MontoItem>1224938</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII006</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 2 AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>121.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>4971.0</PrcItem>
+<MontoItem>601491</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>3</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII007</VlrCodigo>
+</CdgItem>
+<IndExe>1</IndExe>
+<NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>2.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>6808.0</PrcItem>
+<MontoItem>13616</MontoItem>
+</Detalle>
+<DscRcgGlobal>
+<NroLinDR>1</NroLinDR>
+<TpoMov>D</TpoMov>
+<GlosaDR>Porcentaje Variable</GlosaDR>
+<TpoValor>%</TpoValor>
+<ValorDR>16.0</ValorDR>
+</DscRcgGlobal>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>353</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-4</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>1-9</RE>
+<TD>33</TD>
+<F>353</F>
+<FE>2012-03-27</FE>
+<RR>52002400-K</RR>
+<RSR>MTO SERVICES LTDA</RSR>
+<MNT>1839314</MNT>
+<IT1>Cajón AFECTO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>1-9</RE>
+<RS>EMISOR ELECTRONICO PRUEBAS</RS>
+<TD>33</TD>
+<RNG>
+<D>346</D>
+<H>445</H>
+</RNG>
+<FA>2012-03-27</FA>
+<RSAPK>
+<M>8Fb0XkYW2erSGDmqxwD4J/96WtWdUVY6qiIKte3D8MlP+fD7ee+3tYZvrV+Kp5lcmGmKke3sjftFRD8oZQ+bBw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">r0uzpQOYtNuGEEXL2AvKUjzoLKrJ0z7REBV22qgD9cIJcmB0oFkcnqwgLhH2czojj4tXnBQ0+Cx0BNP4lLgnEA==</FRMA>
+</CAF>
+<TSTED>2012-03-27T21:14:50</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">yhLCAdRAN3fNjVd26S8tTPxaJmI9q7PrK8BynITUeYcVHs8rwRFNPgmAJQaC88xjf3+dvSBMBTWk09XoQruVjQ==</FRMT>
+</TED>
+<TmstFirma>2012-03-27T21:14:50</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#S6T1000N31">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>Sa55EB359qFUTSQ68z8QiQgFxcE=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>VQNMF3+ycTfGwNv99w8o+/M7B3C8yIHMdQZja9NwzjExDutDjQ4qyVvbs3z8iW3/DBjqR1FgTxZG
+9o8sMu5mtmZItPpvp2wAJLgVClnCTonqXPoHsCFSrgP+VNSK92DrU2Qo7xJCMH9Dn1sleBIlTj69
+/EuiQGMVkGzNWsyaIFU=</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>2eMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65ls6
+/RqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+XBUoy2N4cDXyVIVgHIM=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIEhzCCA/CgAwIBAgIEAQCRDjANBgkqhkiG9w0BAQUFADCBtTELMAkGA1UEBhMCQ0wxHTAbBgNV
+NAgUFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHFAhTYW50aWFnbzEUMBIGA1UEChQLRS1N
+OVJUQ0hJTEUxIDAeBgNVBAsUF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRcwFQYDVQQDFA5FLUNO
+VlRDSElMRSBDQTEjMCEGCSqGSIb3DQEJARYUZW1haWxAZS1jZXJ0Y2hpbGUuY2wwHhcNMTEwNzEV
+ATkyMDEzWhcNMTQwNzE4MDAwMDAwWjCBrjELMAkGA1UEBhMCQ0wxFjAUBgNVBAgUDU1FVFJPUE9A
+LVRBTkExETAPBgNVBAcUCFNBTlRJQUdPMSIwIAYDVQQKFBlMQU5JWCBURUNITk9MT0dZIENISUxL
+IFNBMQowCAYDVQQLFAEqMR4wHAYDVQQDFBVBTERPIE1PWUFOTyBBUkFOQ0lCSUExJDAiBgkqhkiI
+Dw0BCQEWFUNPTlRBQklMSURBREBMQU5JWC5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYED
+OeMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65lsO
+CRqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+EBUoy2N4cDXyVIVgHIMCAwEAAaOCAacwggGjMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDcz
+RjEyNjctNzAJBgNVHRMEAjAAMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuZS1jZXJ0Y2hp
+TGUuY2wvZS1jZXJ0Y2hpbGVjYS5jcmwwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4
+FC01MB8GA1UdIwQYMBaAFOAo/dLgYE+zRusazPUIkQdyOh0IMIHfBgNVHSAEgdcwgdQwgdEGCCsG
+AQQBw1IFMIHEMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsLzIwMDAvQ1BT
+LzCBkAYIKwYBBQUHAgIwgYMagYBFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEg
+SHJlc2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0
+OmlidXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvczALBgNVHQ8EBAMCBPAwDQYJKoZIhvcN
+-QEFBQADgYEAT9jGRn6n6+PWyxoo/zD3WHxvLazmi95G3+ciS9mptKD/aSFv/eoqCFBjsYym9g47
+-63EgnX0fmsuoHwaw4mtQ+dVM5e0Is/hFIwZOvWic32lFEkukfjXcFn2mOx0jncaYLL7UmcQmsqb
+-zsgG/814HlNnXAIzSpClMSeTNh+V7c=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>
+<DTE version="1.0">
+<Documento ID="S6T1001N13">
+<Encabezado>
+<IdDoc>
+<TipoDTE>61</TipoDTE>
+<Folio>188</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>76237770-5</RUTRecep>
+<CdgIntRecep>76237770</CdgIntRecep>
+<RznSocRecep>INGENIERIA COMPUTACION  Y SERVICIOS MULLER LTDA</RznSocRecep>
+<GiroRecep>SERVICIO TECNICO</GiroRecep>
+<Contacto>HANS MULLER</Contacto>
+<DirRecep>AV. SANTA TERESA 404</DirRecep>
+<CmnaRecep>LOS ANDES</CmnaRecep>
+<CiudadRecep>LOS ANDES</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntTotal>0</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>CORRECCION DATO</NmbItem>
+<MontoItem>0</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>188</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-5</RazonRef>
+</Referencia>
+<Referencia>
+<NroLinRef>2</NroLinRef>
+<TpoDocRef>33</TpoDocRef>
+<FolioRef>350</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<CodRef>2</CodRef>
+<RazonRef>CORRIGE GIRO.OTRO GIRO</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>1-9</RE>
+<TD>61</TD>
+<F>188</F>
+<FE>2012-03-27</FE>
+<RR>76237770-5</RR>
+<RSR>INGENIERIA COMPUTACION  Y SERVICIOS MULL</RSR>
+<MNT>0</MNT>
+<IT1>Cajón AFECTO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>1-9</RE>
+<RS>EMISOR ELECTRONICO PRUEBAS</RS>
+<TD>61</TD>
+<RNG>
+<D>181</D>
+<H>190</H>
+</RNG>
+<FA>2012-03-27</FA>
+<RSAPK>
+<M>5JC0Y7Lv1oW7FTSQgLAnak5XRE+DmcKFwsjUkIkIBTABdXxRndj1UfdNiMALyRSCvTmR/EOO7N5WTZ1nSqtVTw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">JIYumBzeXZ+mZ81u58MFDt0ABcg3a6RU0cNM9+kpno6DOCzI4OyPAzdUUgYjIAG8P0QNlA9ZOa5Ih9zflXZIfA==</FRMA>
+</CAF>
+<TSTED>2012-03-27T21:14:51</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">xi2qkipNfHvfTc0DM6XYBsP396k049wxsXMpAhZJWGCbnsT9xNTVzqZ8UegK+0ppOFCEVS6/+jKu7aHCByjqWQ==</FRMT>
+</TED>
+<TmstFirma>2012-03-27T21:14:51</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#S6T1001N13">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>zZE3AotKVqZy92+DGwV304+fb6w=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>Nl2aK5HAZL2teq7mvsrGFiUkgBwxYY4r8ObQ89h2FhoFPrVPcBKWW6jqOb9tOZq+r4JoTokvw8lg
+FtlDwlgo9V3yDBJ3DnYiDVdhf3GI7/U+WSXUepwtNqmq7SHJvGU3CTab9ibmG30rLckWp8vUU3M+
+wUVg+FZzQ3ehT9cNP8s=</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>2eMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65ls6
+/RqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+XBUoy2N4cDXyVIVgHIM=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIEhzCCA/CgAwIBAgIEAQCRDjANBgkqhkiG9w0BAQUFADCBtTELMAkGA1UEBhMCQ0wxHTAbBgNV
+NAgUFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHFAhTYW50aWFnbzEUMBIGA1UEChQLRS1N
+OVJUQ0hJTEUxIDAeBgNVBAsUF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRcwFQYDVQQDFA5FLUNO
+VlRDSElMRSBDQTEjMCEGCSqGSIb3DQEJARYUZW1haWxAZS1jZXJ0Y2hpbGUuY2wwHhcNMTEwNzEV
+ATkyMDEzWhcNMTQwNzE4MDAwMDAwWjCBrjELMAkGA1UEBhMCQ0wxFjAUBgNVBAgUDU1FVFJPUE9A
+LVRBTkExETAPBgNVBAcUCFNBTlRJQUdPMSIwIAYDVQQKFBlMQU5JWCBURUNITk9MT0dZIENISUxL
+IFNBMQowCAYDVQQLFAEqMR4wHAYDVQQDFBVBTERPIE1PWUFOTyBBUkFOQ0lCSUExJDAiBgkqhkiI
+Dw0BCQEWFUNPTlRBQklMSURBREBMQU5JWC5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYED
+OeMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65lsO
+CRqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+EBUoy2N4cDXyVIVgHIMCAwEAAaOCAacwggGjMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDcz
+RjEyNjctNzAJBgNVHRMEAjAAMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuZS1jZXJ0Y2hp
+TGUuY2wvZS1jZXJ0Y2hpbGVjYS5jcmwwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4
+FC01MB8GA1UdIwQYMBaAFOAo/dLgYE+zRusazPUIkQdyOh0IMIHfBgNVHSAEgdcwgdQwgdEGCCsG
+AQQBw1IFMIHEMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsLzIwMDAvQ1BT
+LzCBkAYIKwYBBQUHAgIwgYMagYBFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEg
+SHJlc2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0
+OmlidXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvczALBgNVHQ8EBAMCBPAwDQYJKoZIhvcN
+-QEFBQADgYEAT9jGRn6n6+PWyxoo/zD3WHxvLazmi95G3+ciS9mptKD/aSFv/eoqCFBjsYym9g47
+-63EgnX0fmsuoHwaw4mtQ+dVM5e0Is/hFIwZOvWic32lFEkukfjXcFn2mOx0jncaYLL7UmcQmsqb
+-zsgG/814HlNnXAIzSpClMSeTNh+V7c=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>
+<DTE version="1.0">
+<Documento ID="S6T1001N14">
+<Encabezado>
+<IdDoc>
+<TipoDTE>61</TipoDTE>
+<Folio>189</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>78091820-9</RUTRecep>
+<CdgIntRecep>78091820</CdgIntRecep>
+<RznSocRecep>IMPORTADORA LAMARTINE LTDA.</RznSocRecep>
+<GiroRecep>COMPRA VENTA DE REPUESTOS AUTOMOTRICES</GiroRecep>
+<Contacto>MAXIMILIANO LAMARTINE</Contacto>
+<DirRecep>AV. SANTA ROSA 933</DirRecep>
+<CmnaRecep>SANTIAGO</CmnaRecep>
+<CiudadRecep>SANTIAGO</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntNeto>1785615</MntNeto>
+<TasaIVA>19</TasaIVA>
+<IVA>339267</IVA>
+<MntTotal>2124882</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII003</VlrCodigo>
+</CdgItem>
+<NmbItem>Pañuelo AFECTO</NmbItem>
+<DscItem>Paridad 1.0</DscItem>
+<QtyItem>204.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>4354.0</PrcItem>
+<DescuentoPct>7.0</DescuentoPct>
+<DescuentoMonto>62175</DescuentoMonto>
+<MontoItem>826041</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII006</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 2 AFECTO</NmbItem>
+<DscItem>Paridad 1.0</DscItem>
+<QtyItem>335.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>3410.0</PrcItem>
+<DescuentoPct>16.0</DescuentoPct>
+<DescuentoMonto>182776</DescuentoMonto>
+<MontoItem>959574</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>189</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-6</RazonRef>
+</Referencia>
+<Referencia>
+<NroLinRef>2</NroLinRef>
+<TpoDocRef>33</TpoDocRef>
+<FolioRef>351</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<CodRef>3</CodRef>
+<RazonRef>DEVOLUCION.</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>1-9</RE>
+<TD>61</TD>
+<F>189</F>
+<FE>2012-03-27</FE>
+<RR>78091820-9</RR>
+<RSR>IMPORTADORA LAMARTINE LTDA.</RSR>
+<MNT>2124882</MNT>
+<IT1>Cajón AFECTO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>1-9</RE>
+<RS>EMISOR ELECTRONICO PRUEBAS</RS>
+<TD>61</TD>
+<RNG>
+<D>181</D>
+<H>190</H>
+</RNG>
+<FA>2012-03-27</FA>
+<RSAPK>
+<M>5JC0Y7Lv1oW7FTSQgLAnak5XRE+DmcKFwsjUkIkIBTABdXxRndj1UfdNiMALyRSCvTmR/EOO7N5WTZ1nSqtVTw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">JIYumBzeXZ+mZ81u58MFDt0ABcg3a6RU0cNM9+kpno6DOCzI4OyPAzdUUgYjIAG8P0QNlA9ZOa5Ih9zflXZIfA==</FRMA>
+</CAF>
+<TSTED>2012-03-27T21:14:52</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">j4VlNzDCbsVf6md+XWVis1fp73TSeKZ7p59uLwE3EmAwmi3b/MOWeLmm+CN/+qohf94lpOhUWvuT4PbxugTSaw==</FRMT>
+</TED>
+<TmstFirma>2012-03-27T21:14:52</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#S6T1001N14">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>F6emMjaMamOq3N6HO9jNzUcSfYs=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>qjSVRBW3z2CrsY8rxlGl4FgDF9JUUSX0g5R5pKx8cAnqPoJ6LzLqr/1/fFimCq4FTqW0Ez2+8mUK
+T+HaV5v3/Qb2lutkmqU0Azp7nolEYG8DJuaioPU5ws78RUW89nvz44IHLa1D3c37EipkJFNqrCx3
+YaYXgz7Y3nt1Uprq6cg=</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>2eMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65ls6
+/RqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+XBUoy2N4cDXyVIVgHIM=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIEhzCCA/CgAwIBAgIEAQCRDjANBgkqhkiG9w0BAQUFADCBtTELMAkGA1UEBhMCQ0wxHTAbBgNV
+NAgUFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHFAhTYW50aWFnbzEUMBIGA1UEChQLRS1N
+OVJUQ0hJTEUxIDAeBgNVBAsUF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRcwFQYDVQQDFA5FLUNO
+VlRDSElMRSBDQTEjMCEGCSqGSIb3DQEJARYUZW1haWxAZS1jZXJ0Y2hpbGUuY2wwHhcNMTEwNzEV
+ATkyMDEzWhcNMTQwNzE4MDAwMDAwWjCBrjELMAkGA1UEBhMCQ0wxFjAUBgNVBAgUDU1FVFJPUE9A
+LVRBTkExETAPBgNVBAcUCFNBTlRJQUdPMSIwIAYDVQQKFBlMQU5JWCBURUNITk9MT0dZIENISUxL
+IFNBMQowCAYDVQQLFAEqMR4wHAYDVQQDFBVBTERPIE1PWUFOTyBBUkFOQ0lCSUExJDAiBgkqhkiI
+Dw0BCQEWFUNPTlRBQklMSURBREBMQU5JWC5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYED
+OeMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65lsO
+CRqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+EBUoy2N4cDXyVIVgHIMCAwEAAaOCAacwggGjMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDcz
+RjEyNjctNzAJBgNVHRMEAjAAMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuZS1jZXJ0Y2hp
+TGUuY2wvZS1jZXJ0Y2hpbGVjYS5jcmwwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4
+FC01MB8GA1UdIwQYMBaAFOAo/dLgYE+zRusazPUIkQdyOh0IMIHfBgNVHSAEgdcwgdQwgdEGCCsG
+AQQBw1IFMIHEMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsLzIwMDAvQ1BT
+LzCBkAYIKwYBBQUHAgIwgYMagYBFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEg
+SHJlc2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0
+OmlidXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvczALBgNVHQ8EBAMCBPAwDQYJKoZIhvcN
+-QEFBQADgYEAT9jGRn6n6+PWyxoo/zD3WHxvLazmi95G3+ciS9mptKD/aSFv/eoqCFBjsYym9g47
+-63EgnX0fmsuoHwaw4mtQ+dVM5e0Is/hFIwZOvWic32lFEkukfjXcFn2mOx0jncaYLL7UmcQmsqb
+-zsgG/814HlNnXAIzSpClMSeTNh+V7c=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>
+<DTE version="1.0">
+<Documento ID="S6T1001N15">
+<Encabezado>
+<IdDoc>
+<TipoDTE>61</TipoDTE>
+<Folio>190</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>96684580-5</RUTRecep>
+<CdgIntRecep>96684580</CdgIntRecep>
+<RznSocRecep>FERROCARRIL DEL PACIFICO S.A.</RznSocRecep>
+<GiroRecep>TRANSPORTE</GiroRecep>
+<Contacto>PATRICIO NAVARRO</Contacto>
+<DirRecep>MALAGA 120, PISO 5</DirRecep>
+<CmnaRecep>LAS CONDES</CmnaRecep>
+<CiudadRecep>SANTIAGO</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntNeto>932162</MntNeto>
+<MntExe>35066</MntExe>
+<TasaIVA>19</TasaIVA>
+<IVA>177111</IVA>
+<MntTotal>1144339</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII004</VlrCodigo>
+</CdgItem>
+<NmbItem>Pintura B&amp;W AFECTO</NmbItem>
+<DscItem>Paridad 1.0</DscItem>
+<QtyItem>42.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>5094.0</PrcItem>
+<MontoItem>213948</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII006</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 2 AFECTO</NmbItem>
+<DscItem>Paridad 1.0</DscItem>
+<QtyItem>203.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>3538.0</PrcItem>
+<MontoItem>718214</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>3</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII007</VlrCodigo>
+</CdgItem>
+<IndExe>1</IndExe>
+<NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+<DscItem>Paridad 1.0</DscItem>
+<QtyItem>1.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>35066.0</PrcItem>
+<MontoItem>35066</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>190</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-7</RazonRef>
+</Referencia>
+<Referencia>
+<NroLinRef>2</NroLinRef>
+<TpoDocRef>33</TpoDocRef>
+<FolioRef>352</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<CodRef>1</CodRef>
+<RazonRef>ANULA.</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>1-9</RE>
+<TD>61</TD>
+<F>190</F>
+<FE>2012-03-27</FE>
+<RR>96684580-5</RR>
+<RSR>FERROCARRIL DEL PACIFICO S.A.</RSR>
+<MNT>1144339</MNT>
+<IT1>Cajón AFECTO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>1-9</RE>
+<RS>EMISOR ELECTRONICO PRUEBAS</RS>
+<TD>61</TD>
+<RNG>
+<D>181</D>
+<H>190</H>
+</RNG>
+<FA>2012-03-27</FA>
+<RSAPK>
+<M>5JC0Y7Lv1oW7FTSQgLAnak5XRE+DmcKFwsjUkIkIBTABdXxRndj1UfdNiMALyRSCvTmR/EOO7N5WTZ1nSqtVTw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">JIYumBzeXZ+mZ81u58MFDt0ABcg3a6RU0cNM9+kpno6DOCzI4OyPAzdUUgYjIAG8P0QNlA9ZOa5Ih9zflXZIfA==</FRMA>
+</CAF>
+<TSTED>2012-03-27T21:14:54</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">cUqhtBjp+blWRAouliMq47h/O2mjl2oDtLg2aymhy3NjUafAe9AhXjXyhTTfF8v7CJwueqwO1YWv8SwzHDNH/g==</FRMT>
+</TED>
+<TmstFirma>2012-03-27T21:14:54</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#S6T1001N15">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>ceueD+qPnTDfgsHUXIV1KzMCduA=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>s9BkAPTAlFG+D7SaHzYUfTCL8dUSfoggaNW6AdEQWoHLPPe4+zopZvdfKNGYTrQz1TcMCnjUY2zq
+pmvpi1nhIkYRkKYTlRNNcLmJNRpiSsA5rdRVhIVd9lUUR/mu8cd8ih0csheMkWfhcYsZnKF34RbM
+eBGSUy0oti2hMXciR9A=</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>2eMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65ls6
+/RqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+XBUoy2N4cDXyVIVgHIM=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIEhzCCA/CgAwIBAgIEAQCRDjANBgkqhkiG9w0BAQUFADCBtTELMAkGA1UEBhMCQ0wxHTAbBgNV
+NAgUFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHFAhTYW50aWFnbzEUMBIGA1UEChQLRS1N
+OVJUQ0hJTEUxIDAeBgNVBAsUF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRcwFQYDVQQDFA5FLUNO
+VlRDSElMRSBDQTEjMCEGCSqGSIb3DQEJARYUZW1haWxAZS1jZXJ0Y2hpbGUuY2wwHhcNMTEwNzEV
+ATkyMDEzWhcNMTQwNzE4MDAwMDAwWjCBrjELMAkGA1UEBhMCQ0wxFjAUBgNVBAgUDU1FVFJPUE9A
+LVRBTkExETAPBgNVBAcUCFNBTlRJQUdPMSIwIAYDVQQKFBlMQU5JWCBURUNITk9MT0dZIENISUxL
+IFNBMQowCAYDVQQLFAEqMR4wHAYDVQQDFBVBTERPIE1PWUFOTyBBUkFOQ0lCSUExJDAiBgkqhkiI
+Dw0BCQEWFUNPTlRBQklMSURBREBMQU5JWC5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYED
+OeMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65lsO
+CRqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+EBUoy2N4cDXyVIVgHIMCAwEAAaOCAacwggGjMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDcz
+RjEyNjctNzAJBgNVHRMEAjAAMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuZS1jZXJ0Y2hp
+TGUuY2wvZS1jZXJ0Y2hpbGVjYS5jcmwwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4
+FC01MB8GA1UdIwQYMBaAFOAo/dLgYE+zRusazPUIkQdyOh0IMIHfBgNVHSAEgdcwgdQwgdEGCCsG
+AQQBw1IFMIHEMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsLzIwMDAvQ1BT
+LzCBkAYIKwYBBQUHAgIwgYMagYBFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEg
+SHJlc2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0
+OmlidXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvczALBgNVHQ8EBAMCBPAwDQYJKoZIhvcN
+-QEFBQADgYEAT9jGRn6n6+PWyxoo/zD3WHxvLazmi95G3+ciS9mptKD/aSFv/eoqCFBjsYym9g47
+-63EgnX0fmsuoHwaw4mtQ+dVM5e0Is/hFIwZOvWic32lFEkukfjXcFn2mOx0jncaYLL7UmcQmsqb
+-zsgG/814HlNnXAIzSpClMSeTNh+V7c=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>
+<DTE version="1.0">
+<Documento ID="S6T1002N7">
+<Encabezado>
+<IdDoc>
+<TipoDTE>56</TipoDTE>
+<Folio>141</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>76237770-5</RUTRecep>
+<CdgIntRecep>76237770</CdgIntRecep>
+<RznSocRecep>INGENIERIA COMPUTACION  Y SERVICIOS MULLER LTDA</RznSocRecep>
+<GiroRecep>SERVICIO TECNICO</GiroRecep>
+<Contacto>HANS MULLER</Contacto>
+<DirRecep>AV. SANTA TERESA 404</DirRecep>
+<CmnaRecep>LOS ANDES</CmnaRecep>
+<CiudadRecep>LOS ANDES</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntTotal>0</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>CORRECCION DATO</NmbItem>
+<MontoItem>0</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>141</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-8</RazonRef>
+</Referencia>
+<Referencia>
+<NroLinRef>2</NroLinRef>
+<TpoDocRef>61</TpoDocRef>
+<FolioRef>188</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<CodRef>1</CodRef>
+<RazonRef>ANULA.</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>1-9</RE>
+<TD>56</TD>
+<F>141</F>
+<FE>2012-03-27</FE>
+<RR>76237770-5</RR>
+<RSR>INGENIERIA COMPUTACION  Y SERVICIOS MULL</RSR>
+<MNT>0</MNT>
+<IT1>Cajón AFECTO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>1-9</RE>
+<RS>EMISOR ELECTRONICO PRUEBAS</RS>
+<TD>56</TD>
+<RNG>
+<D>141</D>
+<H>150</H>
+</RNG>
+<FA>2012-03-27</FA>
+<RSAPK>
+<M>wlLjcmXVlgoqmbPskE7oZD8jhUf/f4WL9wWXIOktS9bj1+QeAYo7n8UnFAqrEBD0ALr/OgWTdhQHwavMMwixKQ==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">v3hZeH+yw1tazKhJkEfMKw7GvvICcrZ83U1V/jT+GZYxELVLNhdQGdOtW++OyZKIOjRcTeufK9pbfxZ3ThwZtg==</FRMA>
+</CAF>
+<TSTED>2012-03-27T21:14:55</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">tII/r1qCeIsVTworBUAdhCsu7ikSQIGt2BbyKXz4UOW9pjBDQDv4A4h7Ct7eB9/Et6bMNTscyEzwN7f/dDvSYw==</FRMT>
+</TED>
+<TmstFirma>2012-03-27T21:14:55</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#S6T1002N7">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>BFH2wHRvN/0bq/Vso1ZfWIqy8P0=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>uXjFWjKPhezgXb1J1lWMMBaCYcn7YYHycjhON0q3zoRWy03lj2BWnm0kWQlWUY7ah0bkM5ObkD9R
+9i3hGBOE+E2VAbt/KtJNOTPtwPG6+mS8E8iuAD0rLRexTGGuTdP3p2m+ZaEbM84Ro8OPTXgTefrB
+0DEwdFTkhit330w7RVU=</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>2eMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65ls6
+/RqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+XBUoy2N4cDXyVIVgHIM=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIEhzCCA/CgAwIBAgIEAQCRDjANBgkqhkiG9w0BAQUFADCBtTELMAkGA1UEBhMCQ0wxHTAbBgNV
+NAgUFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHFAhTYW50aWFnbzEUMBIGA1UEChQLRS1N
+OVJUQ0hJTEUxIDAeBgNVBAsUF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRcwFQYDVQQDFA5FLUNO
+VlRDSElMRSBDQTEjMCEGCSqGSIb3DQEJARYUZW1haWxAZS1jZXJ0Y2hpbGUuY2wwHhcNMTEwNzEV
+ATkyMDEzWhcNMTQwNzE4MDAwMDAwWjCBrjELMAkGA1UEBhMCQ0wxFjAUBgNVBAgUDU1FVFJPUE9A
+LVRBTkExETAPBgNVBAcUCFNBTlRJQUdPMSIwIAYDVQQKFBlMQU5JWCBURUNITk9MT0dZIENISUxL
+IFNBMQowCAYDVQQLFAEqMR4wHAYDVQQDFBVBTERPIE1PWUFOTyBBUkFOQ0lCSUExJDAiBgkqhkiI
+Dw0BCQEWFUNPTlRBQklMSURBREBMQU5JWC5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYED
+OeMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65lsO
+CRqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+EBUoy2N4cDXyVIVgHIMCAwEAAaOCAacwggGjMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDcz
+RjEyNjctNzAJBgNVHRMEAjAAMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuZS1jZXJ0Y2hp
+TGUuY2wvZS1jZXJ0Y2hpbGVjYS5jcmwwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4
+FC01MB8GA1UdIwQYMBaAFOAo/dLgYE+zRusazPUIkQdyOh0IMIHfBgNVHSAEgdcwgdQwgdEGCCsG
+AQQBw1IFMIHEMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsLzIwMDAvQ1BT
+LzCBkAYIKwYBBQUHAgIwgYMagYBFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEg
+SHJlc2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0
+OmlidXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvczALBgNVHQ8EBAMCBPAwDQYJKoZIhvcN
+-QEFBQADgYEAT9jGRn6n6+PWyxoo/zD3WHxvLazmi95G3+ciS9mptKD/aSFv/eoqCFBjsYym9g47
+-63EgnX0fmsuoHwaw4mtQ+dVM5e0Is/hFIwZOvWic32lFEkukfjXcFn2mOx0jncaYLL7UmcQmsqb
+-zsgG/814HlNnXAIzSpClMSeTNh+V7c=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>
+</SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#SetDoc">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>2LWR7JqP2uJgdJ/B44c5oO5qfQY=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>U4pvyR9JJrc0zxySDC9kke8RjmofUpREe0+QSXqSCZT7iCXf/AvHHcue/QiQh1xRFZOaQ2yL2c/6
+NvUOUL1mSnYDZcnXmwYS3K6I3cChxmF/1NP7NWr9vFo5yv7lJylahXkc2+66Ui9d6ZwbU4cYqRQz
+qCMYl+RVPc0yz8VL7h4=</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>2eMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65ls6
+/RqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+XBUoy2N4cDXyVIVgHIM=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIEhzCCA/CgAwIBAgIEAQCRDjANBgkqhkiG9w0BAQUFADCBtTELMAkGA1UEBhMCQ0wxHTAbBgNV
+NAgUFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHFAhTYW50aWFnbzEUMBIGA1UEChQLRS1N
+OVJUQ0hJTEUxIDAeBgNVBAsUF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRcwFQYDVQQDFA5FLUNO
+VlRDSElMRSBDQTEjMCEGCSqGSIb3DQEJARYUZW1haWxAZS1jZXJ0Y2hpbGUuY2wwHhcNMTEwNzEV
+ATkyMDEzWhcNMTQwNzE4MDAwMDAwWjCBrjELMAkGA1UEBhMCQ0wxFjAUBgNVBAgUDU1FVFJPUE9A
+LVRBTkExETAPBgNVBAcUCFNBTlRJQUdPMSIwIAYDVQQKFBlMQU5JWCBURUNITk9MT0dZIENISUxL
+IFNBMQowCAYDVQQLFAEqMR4wHAYDVQQDFBVBTERPIE1PWUFOTyBBUkFOQ0lCSUExJDAiBgkqhkiI
+Dw0BCQEWFUNPTlRBQklMSURBREBMQU5JWC5DTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYED
+OeMMRADiZLPj5O+e2ESqMiehuqqx0mJjJkfRXJo2dJeSSPFVl9PPCOFhNzQsSeAswGn8g3g65lsO
+CRqZr1AWI6PRuJN47TqKFDkbwySz27HThKNbMzNwwooqRd0BqMgZYjGclcLJWT7YMowQCccUsQDE
+EBUoy2N4cDXyVIVgHIMCAwEAAaOCAacwggGjMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDcz
+RjEyNjctNzAJBgNVHRMEAjAAMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuZS1jZXJ0Y2hp
+TGUuY2wvZS1jZXJ0Y2hpbGVjYS5jcmwwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4
+FC01MB8GA1UdIwQYMBaAFOAo/dLgYE+zRusazPUIkQdyOh0IMIHfBgNVHSAEgdcwgdQwgdEGCCsG
+AQQBw1IFMIHEMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsLzIwMDAvQ1BT
+LzCBkAYIKwYBBQUHAgIwgYMagYBFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEg
+SHJlc2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0
+OmlidXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvczALBgNVHQ8EBAMCBPAwDQYJKoZIhvcN
+-QEFBQADgYEAT9jGRn6n6+PWyxoo/zD3WHxvLazmi95G3+ciS9mptKD/aSFv/eoqCFBjsYym9g47
+-63EgnX0fmsuoHwaw4mtQ+dVM5e0Is/hFIwZOvWic32lFEkukfjXcFn2mOx0jncaYLL7UmcQmsqb
+-zsgG/814HlNnXAIzSpClMSeTNh+V7c=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</EnvioDTE>

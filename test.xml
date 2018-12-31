@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0">
+<Documento ID="S6T1000N28">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>350</Folio>
+<FchEmis>2012-03-27</FchEmis>
+<TipoDespacho>1</TipoDespacho>
+<FmaPago>1</FmaPago>
+<FchCancel>2012-03-27</FchCancel>
+<FchVenc>2012-03-27</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>1-9</RUTEmisor>
+<RznSoc>LANIX TECHNOLOGY CHILE S.A.</RznSoc>
+<GiroEmis>PRODUCCION.FAB.EXP.IMP.Y DIST. EQUIPOS E INSUMOS COMPUTACIONALES</GiroEmis>
+<Telefono>4999300</Telefono>
+<Acteco>300010</Acteco>
+<DirOrigen>EXEQUIEL FERNANDEZ 2249</DirOrigen>
+<CmnaOrigen>MACUL</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>76237770-5</RUTRecep>
+<CdgIntRecep>76237770</CdgIntRecep>
+<RznSocRecep>INGENIERIA COMPUTACION  Y SERVICIOS MULLER LTDA</RznSocRecep>
+<GiroRecep>SERVICIO TECNICO</GiroRecep>
+<Contacto>HANS MULLER</Contacto>
+<DirRecep>AV. SANTA TERESA 404</DirRecep>
+<CmnaRecep>LOS ANDES</CmnaRecep>
+<CiudadRecep>LOS ANDES</CiudadRecep>
+</Receptor>
+<RUTSolicita>2-7</RUTSolicita>
+<Totales>
+<MntNeto>642739</MntNeto>
+<TasaIVA>19</TasaIVA>
+<IVA>122120</IVA>
+<MntTotal>764859</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII001</VlrCodigo>
+</CdgItem>
+<NmbItem>Cajón AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>151.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>2501.0</PrcItem>
+<MontoItem>377651</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>ALFA20</TpoCodigo>
+<VlrCodigo>SII002</VlrCodigo>
+</CdgItem>
+<NmbItem>Relleno AFECTO</NmbItem>
+<DscItem></DscItem>
+<QtyItem>64.0</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>4142.0</PrcItem>
+<MontoItem>265088</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>350</FolioRef>
+<FchRef>2012-03-27</FchRef>
+<RazonRef>CASO 132104-1</RazonRef>
+</Referencia>
+</Documento>
+</DTE>
