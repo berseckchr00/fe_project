@@ -8,7 +8,6 @@ package cl.iwi_fe;
 import cl.nic.dte.util.XMLUtil;
 import java.io.File;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.xmlbeans.XmlException;
