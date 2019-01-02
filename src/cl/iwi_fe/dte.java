@@ -78,13 +78,6 @@ public class dte {
             try {
                 String xmlInput = xml.replaceAll("> <", "><");
                 
-                DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-                DocumentBuilder db = dbf.newDocumentBuilder();
-                
-                InputSource is = new InputSource();
-                is.setCharacterStream(new StringReader(xmlInput));
-                Document docDte = db.parse(is);
-                
                 HashMap<String, String> namespaces = new HashMap<String, String>();
                 namespaces.put("", "http://www.sii.cl/SiiDte");
                 XmlOptions opts = new XmlOptions();
@@ -97,27 +90,13 @@ public class dte {
                 String str = new String(fxml, "ISO-8859-1");
                 
                 DTEDocument doc = DTEDocument.Factory.parse(str,opts);
-                String rutEmisor = doc.getDTE().getDocumento().getEncabezado().getEmisor().getRUTEmisor();
                 
                 xmlInput = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>"+doc.toString();
                 xmlInput = new utils_dte().convertToUTF8(xmlInput);
-                is.setCharacterStream(new StringReader(xmlInput));
-                docDte = db.parse(is);
-                NodeList document = docDte.getElementsByTagName("DTE");
-                
-                System.out.println(xmlInput);
-                
+                                
                 this.generate_dte(xmlInput);
                 
-            } catch (XmlException ex) {
-                Logger.getLogger(Iwi_fe.class.getName()).log(Level.SEVERE, null, ex);
-            } catch (UnsupportedEncodingException ex) {
-                Logger.getLogger(Iwi_fe.class.getName()).log(Level.SEVERE, null, ex);
-            } catch (SAXException ex) {
-                Logger.getLogger(Iwi_fe.class.getName()).log(Level.SEVERE, null, ex);
-            } catch (IOException ex) {
-                Logger.getLogger(Iwi_fe.class.getName()).log(Level.SEVERE, null, ex);
-            } catch (ParserConfigurationException ex) {
+            } catch (XmlException | IOException ex) {
                 Logger.getLogger(Iwi_fe.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
