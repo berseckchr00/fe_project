@@ -5,6 +5,7 @@
  */
 package cl.iwi_fe;
 
+import cl.iwi.config.config;
 import cl.nic.dte.TimbreException;
 import cl.nic.dte.util.Utilities;
 import cl.nic.dte.util.XMLUtil;
@@ -57,8 +58,15 @@ import org.xml.sax.SAXException;
  */
 public class dte {
     
-    public static final String BASIC_FILES_COMPANIES_PATH = "files/companies/iwi";
-    public static final String BASIC_FILES_USERS_PATH = "files/users/iwi";
+    private String BASIC_FILES_COMPANIES_PATH = null;
+    private String BASIC_FILES_USERS_PATH = null;
+    private String IDS_SII = null;
+    private String RUT_SII = null;
+
+    
+    public dte() {
+        this.loadConfig();
+    }  
     
     /**
      * create XML signed
@@ -92,7 +100,7 @@ public class dte {
                 String rutEmisor = doc.getDTE().getDocumento().getEncabezado().getEmisor().getRUTEmisor();
                 
                 xmlInput = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>"+doc.toString();
-                xmlInput = new UtilsDte().convertToUTF8(xmlInput);
+                xmlInput = new utils_dte().convertToUTF8(xmlInput);
                 is.setCharacterStream(new StringReader(xmlInput));
                 docDte = db.parse(is);
                 NodeList document = docDte.getElementsByTagName("DTE");
@@ -115,22 +123,24 @@ public class dte {
         }
     }
     
+    /**
+     * generate XML file DTE & EnvioDTE
+     * @param xml
+     * @return 
+     */
     public boolean generate_dte(String xml){
         try {
-            String idS ="SDOC";
-            String recepS ="60803000-K";
             
             HashMap<String, String> namespaces = new HashMap<String, String>();
             namespaces.put("", "http://www.sii.cl/SiiDte");
             XmlOptions opts = new XmlOptions();
             opts.setLoadSubstituteNamespaces(namespaces);
-            
-            
+                        
             DTEDocument doc = DTEDocument.Factory.parse(xml);
-            
-            
-            String rut = doc.getDTE().getDocumento().getEncabezado().getEmisor().getRUTEmisor();
-            String dteType = doc.getDTE().getDocumento().getEncabezado().getIdDoc().getTipoDTE().toString();
+            String dteType = doc.getDTE().getDocumento().getEncabezado()
+                    .getIdDoc()
+                    .getTipoDTE()
+                    .toString();
             
             String cafS = BASIC_FILES_COMPANIES_PATH+"/caf/"+dteType+"/33.xml";
             
@@ -139,8 +149,11 @@ public class dte {
             
             String certS = BASIC_FILES_USERS_PATH+"/cert/iwi.pfx";
             
-            String planenvio = BASIC_FILES_COMPANIES_PATH+"/plantilla/"+dteType+".xml";
-            String plantillaEnvio = new Scanner(new File(planenvio), "ISO-8859-1").useDelimiter("\\A").next();
+            String planenvio = BASIC_FILES_COMPANIES_PATH+"/plantilla/"
+                    +dteType+".xml";
+            String plantillaEnvio = new Scanner(
+                    new File(planenvio), "ISO-8859-1")
+                    .useDelimiter("\\A").next();
             
             String passS = "Charlie12";
             // leo certificado y llave privada del archivo pkcs12
@@ -152,7 +165,8 @@ public class dte {
             PrivateKey key = (PrivateKey) ks.getKey(alias, passS.toCharArray());
             
             int folio = 1;
-            doc.getDTE().getDocumento().getEncabezado().getIdDoc().setFolio(folio);
+            doc.getDTE().getDocumento().getEncabezado().getIdDoc()
+                    .setFolio(folio);
             
             doc.getDTE().timbrar(caf.getCAF(), caf.getPrivateKey(null));
             
@@ -191,15 +205,16 @@ public class dte {
             
             X509Certificate x509 = (X509Certificate) ks1.getCertificate(alias1);
             String enviadorS = Utilities.getRutFromCertificate(x509);
-            PrivateKey pKey = (PrivateKey) ks1.getKey(alias1, passS.toCharArray());
+            PrivateKey pKey = (PrivateKey) ks1.getKey(alias1, 
+                    passS.toCharArray());
             
             // Asigno un ID
-            envio.getEnvioDTE().getSetDTE().setID(idS);
+            envio.getEnvioDTE().getSetDTE().setID(IDS_SII);
             
             cl.sii.siiDte.EnvioDTEDocument.EnvioDTE.SetDTE.Caratula car = envio
                     .getEnvioDTE().getSetDTE().getCaratula();
             
-            car.setRutReceptor(recepS);
+            car.setRutReceptor(RUT_SII);
             car.setRutEnvia(enviadorS);
             
             // documentos a enviar
@@ -217,19 +232,27 @@ public class dte {
             // armar hash para totalizar por tipoDTE
             if (hashTot.get(dtes[0].getDocumento().getEncabezado().getIdDoc()
                     .getTipoDTE().intValue()) != null) {
-                hashTot.put(dtes[0].getDocumento().getEncabezado().getIdDoc()
+                hashTot.put(dtes[0].getDocumento().getEncabezado()
+                        .getIdDoc()
                         .getTipoDTE().intValue(), hashTot.get(dtes[0]
-                                .getDocumento().getEncabezado().getIdDoc().getTipoDTE()
+                                .getDocumento()
+                                .getEncabezado()
+                                .getIdDoc()
+                                .getTipoDTE()
                                 .intValue()) + 1);
             } else {
                 hashTot.put(dtes[0].getDocumento().getEncabezado().getIdDoc()
                         .getTipoDTE().intValue(), 1);
             }
             
-            EnvioDTEDocument.EnvioDTE.SetDTE.Caratula.SubTotDTE[] subtDtes = new EnvioDTEDocument.EnvioDTE.SetDTE.Caratula.SubTotDTE[hashTot.size()];
+            EnvioDTEDocument.EnvioDTE.SetDTE.Caratula.SubTotDTE[] subtDtes = 
+                    new EnvioDTEDocument.EnvioDTE.SetDTE.Caratula
+                    .SubTotDTE[hashTot.size()];
             int i = 0;
             for (Integer tipo : hashTot.keySet()) {
-                EnvioDTEDocument.EnvioDTE.SetDTE.Caratula.SubTotDTE subt = EnvioDTEDocument.EnvioDTE.SetDTE.Caratula.SubTotDTE.Factory.newInstance();
+                EnvioDTEDocument.EnvioDTE.SetDTE.Caratula.SubTotDTE subt = 
+                        EnvioDTEDocument.EnvioDTE.SetDTE.Caratula.SubTotDTE
+                                .Factory.newInstance();
                 subt.setTpoDTE(new BigInteger(tipo.toString()));
                 subt.setNroDTE(new BigInteger(hashTot.get(tipo).toString()));
                 subtDtes[i] = subt;
@@ -249,14 +272,38 @@ public class dte {
             envio.sign(pKey, x509);
             opts1 = new XmlOptions();
             opts1.setCharacterEncoding("ISO-8859-1");
-            String resultS = BASIC_FILES_COMPANIES_PATH+"/DTEs/"+dteType+'/'+folio+".xml";// esto debe ser cambiado por el numero de folio
+            String resultS = BASIC_FILES_COMPANIES_PATH+"/DTEs/"+
+                    dteType+'/'+folio+".xml";
             envio.save(new File(resultS), opts1);
-            Logger.getLogger(Iwi_fe.class.getName()).log(Level.FINE, null, "Documento Creado");
+            Logger.getLogger(Iwi_fe.class.getName())
+                    .log(Level.FINE, null, "Documento Creado");
             return true;
-        } catch (XmlException | IOException | KeyStoreException | NoSuchAlgorithmException | CertificateException | UnrecoverableKeyException | NoSuchPaddingException | InvalidKeySpecException | InvalidAlgorithmParameterException | TimbreException | SignatureException | KeyException | MarshalException | XMLSignatureException | SAXException | ParserConfigurationException ex) {
+        } catch (XmlException | IOException | KeyStoreException | 
+                NoSuchAlgorithmException | CertificateException | 
+                UnrecoverableKeyException | NoSuchPaddingException | 
+                InvalidKeySpecException | InvalidAlgorithmParameterException | 
+                TimbreException | SignatureException | KeyException | 
+                MarshalException | XMLSignatureException | SAXException | 
+                ParserConfigurationException ex) {
             Logger.getLogger(Iwi_fe.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return false;
+    }
+    
+    /**
+     * load config variables properties
+     */
+    private void loadConfig() {
+        try {
+            config config = new config();
+            BASIC_FILES_COMPANIES_PATH = 
+                    config.getValues("BASIC_FILES_COMPANIES_PATH");
+            BASIC_FILES_USERS_PATH = config.getValues("BASIC_FILES_USERS_PATH");
+            IDS_SII = config.getValues("IDS_SII");
+            RUT_SII = config.getValues("RUT_SII");
+        } catch (IOException ex) {
+            Logger.getLogger(dte.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }

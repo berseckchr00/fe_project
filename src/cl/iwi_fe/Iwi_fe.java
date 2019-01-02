@@ -22,7 +22,8 @@ public class Iwi_fe {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        
         Iwi_fe iwi_fe = new Iwi_fe();
         iwi_fe.dte();
     }

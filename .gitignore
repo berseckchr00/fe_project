@@ -2,3 +2,4 @@ files/companies/
 files/users/
 *.pfx
 build/classes/schemaorg_apache_xmlbeans/*
+build/classes/
